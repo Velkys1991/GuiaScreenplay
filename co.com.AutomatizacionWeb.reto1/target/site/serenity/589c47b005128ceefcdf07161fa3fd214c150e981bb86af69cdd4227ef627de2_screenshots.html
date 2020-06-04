@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="56ed5b1b88f8c7c961b840868b9bea04bf453691acb3af57b74055861852c338.html">: Automation Demo Site</a></span>
+                > <span class="truncate-60"><a
+                    href="589c47b005128ceefcdf07161fa3fd214c150e981bb86af69cdd4227ef627de2.html">Access Automation Demo Site </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-06-2020 15:37</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">: Automation Demo Site </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                I as a user want to access the Web Automation Demo Site
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Access Automation Demo Site
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="d19ebb9abeabac96f237254f2104d82952180b922092aac7b505fdbb1a4da198.png" title="Given Carlos wants to access the Web Automation Demo Site" width="1366"/>
+                <img src="02ae3c8b60d5e3afeeda629578f540f6dd6c248b3622a9329ce5a411fe9a8320.png" title="Carlos opens the Automation web page" width="1366"/>
+                <img src="0daed6bf682d0ecde3f997580bcf1573f34ef85955194fd732b3117e82a67c88.png" title="When He performs the registration on the page
+| firstName | lastName | Address | emailAddress | phone | languages | skills | country | selectCountry | year | month | day | password | confirmPassword |
+| Velkys | Oberto | LA Chorrera | velkysargel@hotmail.com | 1112334578 | English | Android | Panama | Australia | 1967 | April | 12 | Clave78 | Clave78 |" width="1366"/>
+                <img src="17cd94e0a33e799189a467e61df184d0fee48d64505f1963e81f0402c1404fc5.png" title="Carlos enters 'Velkys' into Name input field" width="1366"/>
+                <img src="236e69c298e5267d10a05c65bec0b891f301cb19dc5670f59641568c61c20485.png" title="Carlos enters 'Oberto' into LastName input field" width="1366"/>
+                <img src="cfff388306cd2548d2bb53d994c63d1e27803b46948cb4c4190065f6b4a17300.png" title="Carlos enters 'LA Chorrera' into Address input field" width="1366"/>
+                <img src="ceec09cd38b2f56089c95b4b19333d5fa7dc5e446ae7c31a96aa13b486543fee.png" title="Carlos enters 'velkysargel@hotmail.com' into Email input field" width="1366"/>
+                <img src="65f1527033c356bdedde7cb720176da4a4bddceac0cd687dbcd4467358c1745b.png" title="Carlos enters '1112334578' into Phone input field" width="1366"/>
+                <img src="6766c7542574347d4ad09cac99f94b84b6f29aedb9040af6235a6d79d84206a8.png" title="Carlos clicks on Select an opcion Gender" width="1366"/>
+                <img src="f962c2d5528ce249da33c28b870ee4599c7930c02e0ede2b62ddd37512985978.png" title="Carlos clicks on Select an opcion Hobbies" width="1366"/>
+                <img src="eeb7515e5ee4cda287005873bff88f5b4cb84ada842b49ebc004b6acc093b166.png" title="Carlos clicks on Select an opcion Language" width="1366"/>
+                <img src="6ac0adc6edcfb7d0408e84b29a61288c1515b53fe579d23fa13be83306a0be20.png" title="Carlos enters 'Clave78' into Password input field" width="1366"/>
+                <img src="c1b74f8ed75729c5a98cbf1204031cbcee209413f7b25ef16a3ebe04d4e337c7.png" title="Carlos enters 'Clave78' into Password2 input field" width="1366"/>
+                <img src="0daed6bf682d0ecde3f997580bcf1573f34ef85955194fd732b3117e82a67c88.png" title="Carlos clicks on click the submit button" width="1366"/>
+                <img src="8b21e7a9b9e788da7d4ffefa1a3b75c4750046a6d67ca810a5fcaa551b4f3b24.png" title="Then He verifies that the screen loads with text - Double Click on Edit Icon to EDIT the Table Row." width="1366"/>
+                <img src="8b21e7a9b9e788da7d4ffefa1a3b75c4750046a6d67ca810a5fcaa551b4f3b24.png" title="Then answer: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
